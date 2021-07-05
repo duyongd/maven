@@ -31,5 +31,6 @@ List<MemberVo> list =(List<MemberVo>)request.getAttribute("list");
 <% for(int i=0; i<list.size(); i++) { %>
 <%=list.get(i).getMno() %> <%=list.get(i).getEmail()%> <%= list.get(i).getMname()%><br>
 <%} %>
+<div></div>
 </body>
 </html>
